@@ -1,0 +1,48 @@
+# ─────────────────────────────────────────────────────────────────
+#  CONFIGURACIÓN DE ARCHIVOS EN SHAREPOINT
+#  Solo debes editar esta sección. No toques el archivo app.py.
+# ─────────────────────────────────────────────────────────────────
+#
+#  CÓMO OBTENER LOS LINKS (hazlo una sola vez por archivo):
+#
+#  1. Abre SharePoint en el navegador
+#  2. Haz clic derecho sobre el archivo Excel → "Compartir"
+#  3. En "Configuración del vínculo" → selecciona "Cualquier persona"
+#  4. Asegúrate de que NO tenga fecha de expiración
+#  5. Copia el link que genera
+#  6. Pégalo abajo, entre las comillas, en el campo correspondiente
+#
+#  IMPORTANTE: El link debe ser de tipo "Cualquier persona con el vínculo"
+#  para que el dashboard pueda leerlo sin pedir contraseña.
+# ─────────────────────────────────────────────────────────────────
+
+[archivos]
+
+# Link del archivo de GASTOS REALES (Cuadro de seguimiento de facturas)
+facturas = "https://craftms-my.sharepoint.com/:x:/g/personal/dutabot_colombia_craftmulti_com/IQDeqdGfBu5RTqWDAAgnBc6WAZGMjgMVTf4zd16vJDjFKnk?e=3NtYz3"
+
+# Link del archivo de PRESUPUESTO ADMINISTRACIÓN
+ppto_adm = "https://craftms-my.sharepoint.com/:x:/g/personal/dutabot_colombia_craftmulti_com/IQDiVJ-_Eo83SY4KQLUIWFXkAaExu_yLzwOQOvWHkQrKaOY?e=deV62Y"
+
+# Link del archivo de PRESUPUESTO GESTIÓN HUMANA
+ppto_gh  = "https://craftms-my.sharepoint.com/:x:/g/personal/dutabot_colombia_craftmulti_com/IQA6eBjhFnwrR7AFgCbxEfTrAaYojxciP04eTXHo0OkDTag?e=OamKT5"
+
+# Link del archivo de PRESUPUESTO IT
+ppto_it  = "https://craftms-my.sharepoint.com/:x:/g/personal/dutabot_colombia_craftmulti_com/IQCxuJ7SxoQRSr70oR3rLfCNAZt4Jk_8r2xPveP7sXh1o4w?e=s2rtUo"
+
+
+# ─────────────────────────────────────────────────────────────────
+#  CONFIGURACIÓN OPCIONAL (no es necesario cambiar esto)
+# ─────────────────────────────────────────────────────────────────
+
+[opciones]
+
+# Cada cuántos minutos el dashboard revisa si hay datos nuevos en SharePoint
+# Recomendado: 30 (cada media hora). Mínimo: 5.
+actualizar_cada_minutos = 30
+
+# Nombre de la empresa (aparece en el encabezado del dashboard)
+nombre_empresa = "Craft Logistics"
+
+# Año del presupuesto
+anio = 2026
